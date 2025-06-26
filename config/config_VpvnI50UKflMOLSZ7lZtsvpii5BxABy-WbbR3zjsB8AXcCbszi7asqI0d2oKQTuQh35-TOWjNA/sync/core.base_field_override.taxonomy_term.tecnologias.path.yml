@@ -1,0 +1,20 @@
+uuid: 383101fc-3dea-4ff9-ae65-c3023e6b6876
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tecnologias
+  module:
+    - path
+id: taxonomy_term.tecnologias.path
+field_name: path
+entity_type: taxonomy_term
+bundle: tecnologias
+label: 'Apelido de URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

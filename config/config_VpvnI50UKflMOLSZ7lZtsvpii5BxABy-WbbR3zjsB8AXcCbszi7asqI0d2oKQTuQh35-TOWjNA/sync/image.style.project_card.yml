@@ -1,0 +1,15 @@
+uuid: d2351c8c-3b67-4803-a50c-3ac1d846bd4a
+langcode: pt-br
+status: true
+dependencies: {  }
+name: project_card
+label: project_card
+effects:
+  fd121ac3-8837-4737-9a4b-769d7dd28608:
+    uuid: fd121ac3-8837-4737-9a4b-769d7dd28608
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 320
+      anchor: center-center

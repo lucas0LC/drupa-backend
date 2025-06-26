@@ -1,0 +1,22 @@
+uuid: aee28637-c2ea-4930-bf16-38fa94aaf32e
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: padrao_para_projetos
+label: 'Padrão para Projetos'
+type: 'canonical_entities:node'
+pattern: 'projetos/[node:title]'
+selection_criteria:
+  052be319-b915-430e-9348-fccda470f4dc:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 052be319-b915-430e-9348-fccda470f4dc
+    context_mapping:
+      node: node
+    bundles:
+      projeto: projeto
+selection_logic: and
+weight: -5
+relationships: {  }

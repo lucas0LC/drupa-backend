@@ -1,0 +1,21 @@
+uuid: fea4f3d5-aed0-4ef2-899d-06b20c0a2e37
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_destaque_na_homepage
+    - node.type.projeto
+id: node.projeto.field_destaque_na_homepage
+field_name: field_destaque_na_homepage
+entity_type: node
+bundle: projeto
+label: 'Destaque na Homepage?'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: Sim
+  off_label: Não
+field_type: boolean

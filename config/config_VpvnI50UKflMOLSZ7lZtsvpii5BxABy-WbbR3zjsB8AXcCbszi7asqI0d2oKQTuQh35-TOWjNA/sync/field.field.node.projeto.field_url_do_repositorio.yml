@@ -1,0 +1,23 @@
+uuid: 3da1269e-b948-431d-8eda-450b262dd857
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_url_do_repositorio
+    - node.type.projeto
+  module:
+    - link
+id: node.projeto.field_url_do_repositorio
+field_name: field_url_do_repositorio
+entity_type: node
+bundle: projeto
+label: 'URL do Repositório'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

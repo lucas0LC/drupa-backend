@@ -1,0 +1,18 @@
+uuid: 637ae96e-5ad6-4da6-b4ba-883b02bea0a1
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tecnologias
+id: taxonomy_term.tecnologias.name
+field_name: name
+entity_type: taxonomy_term
+bundle: tecnologias
+label: Nome
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

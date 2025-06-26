@@ -1,0 +1,22 @@
+uuid: 54214fb9-a1e9-41ce-b7de-58e1b8c11f65
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tecnologias
+id: taxonomy_term.tecnologias.status
+field_name: status
+entity_type: taxonomy_term
+bundle: tecnologias
+label: Publicado
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Habilitado
+  off_label: Desligado
+field_type: boolean

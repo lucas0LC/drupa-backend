@@ -1,0 +1,18 @@
+uuid: d4f6c32c-b9f4-405b-a0d2-5958de1051fb
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.created
+field_name: created
+entity_type: node
+bundle: page
+label: 'Escrito em'
+description: 'A data e hora que o conteúdo foi criado.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

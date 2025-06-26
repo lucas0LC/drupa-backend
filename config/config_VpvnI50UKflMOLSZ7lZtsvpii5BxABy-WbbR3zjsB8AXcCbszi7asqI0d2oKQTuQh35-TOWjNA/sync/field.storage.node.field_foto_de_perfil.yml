@@ -1,0 +1,30 @@
+uuid: 38a31e2f-91ee-497e-a6ac-5d4d2d1014d5
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_foto_de_perfil
+field_name: field_foto_de_perfil
+entity_type: node
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: true
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

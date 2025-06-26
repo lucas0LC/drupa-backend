@@ -1,0 +1,20 @@
+uuid: 066d819c-7963-4dd8-8dbd-85af7c063c28
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.projeto
+  module:
+    - path
+id: node.projeto.path
+field_name: path
+entity_type: node
+bundle: projeto
+label: 'Apelido de URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

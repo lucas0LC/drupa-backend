@@ -1,0 +1,21 @@
+uuid: 82a26956-d175-4b6e-81ef-30b6e527af58
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.tecnologias
+  module:
+    - text
+id: taxonomy_term.tecnologias.description
+field_name: description
+entity_type: taxonomy_term
+bundle: tecnologias
+label: Descrição
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

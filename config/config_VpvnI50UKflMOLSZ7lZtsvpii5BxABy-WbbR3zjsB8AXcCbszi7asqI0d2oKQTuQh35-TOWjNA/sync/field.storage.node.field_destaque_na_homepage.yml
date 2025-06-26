@@ -1,0 +1,18 @@
+uuid: cd38a4df-26f5-4583-92b6-a556907d1a49
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_destaque_na_homepage
+field_name: field_destaque_na_homepage
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

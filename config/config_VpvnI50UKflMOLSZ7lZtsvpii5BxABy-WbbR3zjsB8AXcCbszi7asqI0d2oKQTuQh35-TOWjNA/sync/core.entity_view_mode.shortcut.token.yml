@@ -1,0 +1,11 @@
+uuid: f1246e4f-2926-45d6-a80b-d3749f6200fc
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - shortcut
+id: shortcut.token
+label: Token
+description: ''
+targetEntityType: shortcut
+cache: true

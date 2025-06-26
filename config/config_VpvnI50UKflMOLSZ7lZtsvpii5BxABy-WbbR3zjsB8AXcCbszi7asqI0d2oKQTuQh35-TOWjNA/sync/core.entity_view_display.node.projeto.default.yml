@@ -1,0 +1,98 @@
+uuid: dd6ff0c4-5953-4a42-8f36-ed799fc08fd3
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - field.field.node.projeto.field_descricao
+    - field.field.node.projeto.field_destaque_na_homepage
+    - field.field.node.projeto.field_imagem_de_destaque
+    - field.field.node.projeto.field_subtitulo
+    - field.field.node.projeto.field_tecnologias
+    - field.field.node.projeto.field_url_do_projeto
+    - field.field.node.projeto.field_url_do_repositorio
+    - node.type.projeto
+  module:
+    - image
+    - link
+    - text
+    - user
+id: node.projeto.default
+targetEntityType: node
+bundle: projeto
+mode: default
+content:
+  field_descricao:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_destaque_na_homepage:
+    type: boolean
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 108
+    region: content
+  field_imagem_de_destaque:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_subtitulo:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_tecnologias:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 107
+    region: content
+  field_url_do_projeto:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_url_do_repositorio:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

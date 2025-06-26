@@ -1,0 +1,18 @@
+uuid: 9765e26b-8229-44bf-b105-8e2d1f7d2b91
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.page
+id: node.page.title
+field_name: title
+entity_type: node
+bundle: page
+label: Título
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

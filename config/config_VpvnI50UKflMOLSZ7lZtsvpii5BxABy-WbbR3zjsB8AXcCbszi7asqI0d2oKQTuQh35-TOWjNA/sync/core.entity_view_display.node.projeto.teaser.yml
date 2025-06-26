@@ -1,0 +1,35 @@
+uuid: 8b2a49cb-daa4-46f7-83d9-46f6a82e7aa5
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.projeto.field_descricao
+    - field.field.node.projeto.field_destaque_na_homepage
+    - field.field.node.projeto.field_imagem_de_destaque
+    - field.field.node.projeto.field_subtitulo
+    - field.field.node.projeto.field_tecnologias
+    - field.field.node.projeto.field_url_do_projeto
+    - field.field.node.projeto.field_url_do_repositorio
+    - node.type.projeto
+  module:
+    - user
+id: node.projeto.teaser
+targetEntityType: node
+bundle: projeto
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_descricao: true
+  field_destaque_na_homepage: true
+  field_imagem_de_destaque: true
+  field_subtitulo: true
+  field_tecnologias: true
+  field_url_do_projeto: true
+  field_url_do_repositorio: true
+  langcode: true
